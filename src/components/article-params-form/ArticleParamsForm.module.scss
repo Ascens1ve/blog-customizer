@@ -15,6 +15,7 @@
 .form {
   display: flex;
   flex-direction: column;
+  gap: 50px;
   box-sizing: border-box;
   width: 616px;
   height: auto;
@@ -29,4 +30,12 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 31px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-transform: uppercase;
 }
